@@ -1,0 +1,93 @@
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  background: whitesmoke; 
+  color: dimgray; 
+}
+
+header { 
+  background: black; 
+  color: white;
+  text-align: center;
+  padding: 1.5rem; 
+}
+
+nav a { 
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold; 
+}
+
+section { 
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 { 
+  color: dodgerblue; 
+}
+
+ul { list-style-type: none; padding: 0; }
+
+li { 
+  background: lightgray; 
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px; 
+}
+
+.btn { 
+  display: inline-block;
+  padding: 8px 15px;
+  background: dodgerblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn:hover { background: royalblue; }
+
+.project { 
+  margin-bottom: 15px;
+  border-left: 4px solid dodgerblue;
+  padding-left: 10px; 
+}
+
+form input, form textarea, form button { 
+  width: 100%; 
+  padding: 10px; 
+  margin: 5px 0; 
+  border: 1px solid lightgray; 
+  border-radius: 4px; 
+}
+
+form button { 
+  background: dodgerblue;
+  color: white;
+  border: none;
+  cursor: pointer; 
+}
+
+form button:hover { background: royalblue; }
+
+footer { 
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 10px;
+  margin-top: 20px; 
+}
+.profile-pic {
+  width: 150px;         
+  height: 150px;        
+  border-radius: 50%;   
+  display: block;
+  margin: 10px auto;    
+  border: 3px solid dodgerblue;
+  object-fit: cover;    
+}
